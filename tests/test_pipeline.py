@@ -2,12 +2,19 @@
 
 from pathlib import Path
 
+import pytest
+
 from b06.audit import audit_summary, matched_guide_pairs
 from b06.confidences import block_bootstrap_interval, gene_interval
 from b06.contrasts import gene_pair_calls, guide_pair_contrasts
 from b06.io import load_design, mu_control
 
 DESIGN = Path(__file__).resolve().parent.parent / "raw" / "MOESM3_design.xlsx"
+
+pytestmark = pytest.mark.skipif(
+    not DESIGN.exists(),
+    reason="licensed pilot design file not in repo; download from the URL in src/b06/provenance.py",
+)
 
 
 def get_pipeline():

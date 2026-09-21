@@ -1,0 +1,14 @@
+{
+  "guide_pairs_total": 8869,
+  "unique_guides": 3146,
+  "genes": 538,
+  "triaged": 3282,
+  "genes_with_2plus_guides": 538,
+  "gene_pairs_observed": 1249,
+  "gene_pairs_full_cross_product": 521,
+  "gene_pairs_with_doubles": 1249,
+  "guides_with_matched_single": 1071,
+  "guides_bridging_single_and_double": 214,
+  "nontargeting_control_pairs": 595,
+  "control_phenotype_median": 0.9494587503608551
+}

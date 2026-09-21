@@ -1,0 +1,79 @@
+{
+  "method": "B06 v0.1.0",
+  "git_commit": "78ae09a18041a5e36ec09c6d21b562f6f6f9f56a",
+  "python": "3.9.6",
+  "platform": "macOS-26.4-arm64-arm-64bit",
+  "package_versions": {
+    "pandas": "2.3.3",
+    "numpy": "1.26.4",
+    "openpyxl": "3.1.5"
+  },
+  "seed": 0,
+  "estimand": "gene-level interaction via matched dual-guide factorial contrast on FC_500x (log2 FC D14/D3), HT-29 pilot",
+  "sources": {
+    "raw/MOESM3_design.xlsx": {
+      "url": "https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fs41467-025-67256-9/MediaObjects/41467_2025_67256_MOESM3_ESM.xlsx",
+      "role": "Burgold pilot library: design + counts (Supplementary Data 1)",
+      "sha256": "991270c181570bfeb65759e2fdfd6d79d83f4eedcfaa26c8df743da6733d1253"
+    },
+    "raw/MOESM6_results.xlsx": {
+      "url": "https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fs41467-025-67256-9/MediaObjects/41467_2025_67256_MOESM6_ESM.xlsx",
+      "role": "Figure source data",
+      "sha256": "10ba8d6e839a79ff2371ed1600c0aa934693daf265a01b82375bd6c228f0f377"
+    }
+  },
+  "artifacts": {
+    "results/audit/audit_summary.json": {
+      "sha256": "29ac572fbea14cf63556c4235a86efc57ed082956f2f2e0badd47f64475f32aa",
+      "bytes": 400
+    },
+    "results/audit/guide_pairs_design.csv": {
+      "sha256": "c0315cf3907f9121822fa5a6bb61f89c4596cd7314e829e535f6fd34d0975303",
+      "bytes": 1191503
+    },
+    "results/audit/guide_usage.csv": {
+      "sha256": "645c2f8f338037902deb62fd4a171e93366711eec81a3a78229f20a18966c3e8",
+      "bytes": 4456
+    },
+    "results/audit/matched_guide_pairs.csv": {
+      "sha256": "d1b2962ae11349d061f52bb05eb9c972fd19631e87b0b4f8905f046301df79bb",
+      "bytes": 28284
+    },
+    "results/bounds/gene_intervals.csv": {
+      "sha256": "e80de1155d2a7edb09b1f8a0d62303ed094977724f9bb2f832c0eb958f6041ea",
+      "bytes": 8998
+    },
+    "results/bounds/gene_pair_calls.csv": {
+      "sha256": "68c5c685ee232f12db04995c13b5cfb0ee219c1ae79a128d5f95811fb74966b9",
+      "bytes": 4757
+    },
+    "results/bounds/guide_bootstrap.csv": {
+      "sha256": "e7b98cd1fef6c81dce869c26bc3f7f474f9cb8f4981c8db76bce0598ab691266",
+      "bytes": 2538
+    },
+    "results/bounds/guide_conflicts.csv": {
+      "sha256": "b36e4599a83f28aa5ceb3feb57f73fba4740ee452a7986cb073c195bbbf0c93c",
+      "bytes": 3251
+    },
+    "results/bounds/guide_holdout.csv": {
+      "sha256": "f3622064a77b479dc2ff52500d6ec1b3caea5d2a5b36c1015962d78a622baa70",
+      "bytes": 4142
+    },
+    "results/bounds/guide_pair_contrasts.csv": {
+      "sha256": "6380973ee7c1d434a5c9593c4e82303cf57827091c813dc71fa0dbd8f171867d",
+      "bytes": 72557
+    },
+    "results/mantis/gene_pairs.csv": {
+      "sha256": "ede115ab9bae6438822a9d5d834d0aa791715181cd9c060dc298e20ae71e780a",
+      "bytes": 3767
+    },
+    "results/provenance.json": {
+      "sha256": "8037c26c84ac0a54d3a9ba7769a37e3d9c7f81f40caccd0fad4d32eb967a6b3d",
+      "bytes": 2927
+    },
+    "results/scout_summary.md": {
+      "sha256": "af4f2b5fbd0b7e5b14bb55a4d6d6deda53c7054704a4be011e3ff11f406366f9",
+      "bytes": 1058
+    }
+  }
+}

@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+.DS_Store
+raw/
+results_colo1/
+results_colo1_plm/
+.pytest_cache/

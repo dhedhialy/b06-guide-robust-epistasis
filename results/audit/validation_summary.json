@@ -1,0 +1,49 @@
+{
+  "rank_auc_by_rho": [
+    {
+      "rho": 0.05,
+      "instances": 65,
+      "n_negative_gi": 31,
+      "n_positive_gi": 34,
+      "robust_auc": 0.8908918406072106,
+      "conv_auc": 0.9013282732447818
+    },
+    {
+      "rho": 0.1,
+      "instances": 65,
+      "n_negative_gi": 31,
+      "n_positive_gi": 34,
+      "robust_auc": 0.8738140417457305,
+      "conv_auc": 0.9013282732447818
+    },
+    {
+      "rho": 0.2,
+      "instances": 65,
+      "n_negative_gi": 31,
+      "n_positive_gi": 34,
+      "robust_auc": 0.881404174573055,
+      "conv_auc": 0.9013282732447818
+    },
+    {
+      "rho": 0.3,
+      "instances": 65,
+      "n_negative_gi": 31,
+      "n_positive_gi": 34,
+      "robust_auc": 0.889943074003795,
+      "conv_auc": 0.9013282732447818
+    }
+  ],
+  "validated_paralog_sl": {
+    "set": [
+      "ARID1A|ARID1B",
+      "ASF1A|ASF1B",
+      "CNOT7|CNOT8",
+      "HDAC1|HDAC2",
+      "MAPK1|MAPK3"
+    ],
+    "found": 0,
+    "ranks_robust": [],
+    "ranks_conv": [],
+    "n_gene_pairs": 11
+  }
+}

@@ -1,0 +1,15 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "b06-guide-robust-epistasis"
+version = "0.1.0"
+description = "Guide-efficacy-robust partial identification for combinatorial CRISPR screens"
+requires-python = ">=3.9"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
